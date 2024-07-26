@@ -1,0 +1,36 @@
+/*====================
+
+
+==================*/
+/*=========================
+=        Molecules        =
+=========================*/
+/*===================================
+=        Elementor Countdown        =
+====================================*/
+.mthemes-countdown-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto; }
+  .mthemes-countdown-wrapper .mthemes-countdown-item {
+    -ms-flex-preferred-size: 0;
+        flex-basis: 0;
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    padding: 15px 0;
+    text-align: center;
+    background-color: #333;
+    color: #fff; }
+    .mthemes-countdown-wrapper .mthemes-countdown-item:not(:last-of-type) {
+      margin-right: calc(10px / 2); }
+    .mthemes-countdown-wrapper .mthemes-countdown-item .mthemes-countdown-numbers {
+      font-size: 62px;
+      line-height: 1; }
+    .mthemes-countdown-wrapper .mthemes-countdown-item .mthemes-countdown-label {
+      font-size: 18px; }
